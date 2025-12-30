@@ -1,0 +1,8 @@
+def flip(n):
+    odds = 1.0     
+    r = 2.0
+    for i in range(n):
+        odds *= r   
+    print(odds)
+n = 1
+flip(n)
